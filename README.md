@@ -10,7 +10,7 @@ ___
 5. `python -u test.py` (It's always safer to run Python in unbuffered mode, specially on Windows XP)
 ___
 ### Examples
-1. ```python
+```python
 import tesseract
 api = tesseract.TessBaseAPI()
 api.SetOutputName("outputName");
@@ -22,7 +22,7 @@ api.SetImage(pixImage)
 outText=api.GetUTF8Text()
 print("OCR output:\n%s"%outText);
 api.End()```
-2. ```python
+```python
 import tesseract
 api = tesseract.TessBaseAPI()
 api.Init(".","eng",tesseract.OEM_DEFAULT)
@@ -33,7 +33,7 @@ mBuffer=open(mImgFile,"rb").read()
 result = tesseract.ProcessPagesBuffer(mBuffer,len(mBuffer),api)
 print "result(ProcessPagesBuffer)=",result
 api.End()```
-3. ```python
+```python
 import cv2.cv as cv
 import tesseract
 api = tesseract.TessBaseAPI()
@@ -46,7 +46,7 @@ conf=api.MeanTextConf()
 print text
 api.End()
 ```
-4. ```python
+```python
 import tesseract
 import cv2
 import cv2.cv as cv
@@ -92,7 +92,7 @@ print "Ocred Text: %s"%text
 print "Cofidence Level: %d %%"%conf
 api.End()
 ```
-5. ```python
+```python
 import tesseract
 import cv2
 import cv2.cv as cv

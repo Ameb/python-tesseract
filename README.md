@@ -8,8 +8,8 @@ ___
 3. Download and install [Numpy](http://www.numpy.org/) and [python-opencv](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_setup/py_table_of_contents_setup/py_table_of_contents_setup.html)
 4. Unzip the [sample code](https://github.com/Arengorn/python-tesseract/blob/master/files/test-slim.7z) and keep your fingers crossed.
 5. `python -u test.py` (It's always safer to run Python in unbuffered mode, specially on Windows XP)
-___
 
+___
 ### Examples
 1.
 ```python

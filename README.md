@@ -1,5 +1,5 @@
 # Python Wrapper Class for Tesseract
-##### (Linux & Mac OS X & Windows)
+##### (Linux, Mac OS X & Windows)
 Python-tesseract is a wrapper class for Tesseract OCR that allows any conventional image files (JPG, GIF ,PNG , TIFF and etc) to be read and decoded into readable languages. No temporary file will be created during the OCR processing.
 ___
 ### Setup
